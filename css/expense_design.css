@@ -1,0 +1,77 @@
+body {
+	  font-size: 14px;
+	  line-height: 1.4;
+	  margin:0;
+	}
+	tfoot tr, thead tr {
+		background: lightblue;
+	}
+	tfoot td {
+		font-weight:bold;
+	}
+	div#example_filter{
+	    margin: 12px 0px;
+		width: 100%;
+		position: relative;
+	}
+	div#example_filter label{
+		color: #497dab;
+		font-weight: 600;
+		font-size: 16px;
+		text-transform: capitalize;		
+	}
+	.dataTables_wrapper .dataTables_filter input{
+		width: 17%;
+		border: 2px solid #497dab;
+		padding: 5px;
+		height: 30px;
+		border-radius: 5px 0 0 5px;
+		outline: none;
+		color: #333333;	
+	}
+	.data-table.container {
+		max-width: 1650px;
+		padding: 0;
+		width: 100%;
+	}
+	.dataTables_scrollHeadInner{
+	    width: auto !important;
+		padding-right: 0 !important;	
+	}
+	.data-table .responsive {
+	  border-collapse: collapse;
+	}
+	.responsive tr:nth-of-type(odd) {
+	  background: #eee;
+	}
+	.data-table .responsive th {
+	  font-weight: bold;
+	  background: #497dab;
+	  color: #fff;
+	  font-size: 14px;
+	}
+	.responsive th, .responsive td {
+	  text-align: left;
+	  padding: 6px;
+	}
+	.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > tbody > tr > td{
+		text-align: center;
+		padding: 8px 4px;
+		font-size: 13px;
+	}
+	td.sorting_1 {
+		color: #333;
+		font-weight: 700;
+		font-size: 15px;
+		text-transform: capitalize;
+	}
+	@media (max-width:1920px) {
+		.data-table .responsive {
+		  width: 1650px !important;
+		}
+	}
+	@media (max-width:1600px) {
+		.data-table .responsive {
+		  width: 100% !important;
+		}
+	}

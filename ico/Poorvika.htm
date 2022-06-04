@@ -1,0 +1,3000 @@
+<!DOCTYPE html>
+<html class="" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta charset="utf-8">
+		<title>Poorvika</title>
+
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+         <link rel="shortcut icon" href="http://192.168.15.21/e2e/poorvika/images/favicon.ico">
+		<!-- bootstrap & fontawesome -->
+		<link rel="stylesheet" href="Poorvika_files/bootstrap.css">
+		<link rel="stylesheet" href="Poorvika_files/font-awesome.css">
+<link rel="stylesheet" href="Poorvika_files/bootstrap-duallistbox.css">
+		<!-- page specific plugin styles -->
+<link rel="stylesheet" href="Poorvika_files/chosen.css">
+<link rel="stylesheet" href="Poorvika_files/select2.css">
+		<!-- text fonts -->
+		<link rel="stylesheet" href="Poorvika_files/fonts.css">
+<link rel="stylesheet" href="Poorvika_files/jquery.css">
+		<!-- ace styles -->
+		<link rel="stylesheet" href="Poorvika_files/ace.css" class="ace-main-stylesheet" id="main-ace-style">
+
+		<!--[if lte IE 9]>
+			<link rel="stylesheet" href="http://192.168.15.21/e2e/poorvika/assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
+		<![endif]-->
+		<link rel="stylesheet" href="Poorvika_files/ace-skins.css">
+		<link rel="stylesheet" href="Poorvika_files/ace-rtl.css">
+     <link href="Poorvika_files/paginationstyle.css" rel="stylesheet" type="text/css">   
+		<!--[if lte IE 9]>
+		  <link rel="stylesheet" href="http://192.168.15.21/e2e/poorvika/assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+   <script type="text/javascript" src="Poorvika_files/jquery_002.js"></script>
+	              <script type="text/javascript" src="Poorvika_files/jquery_003.js"></script>
+		<!-- inline styles related to this page -->
+
+		<!-- ace settings handler -->
+		<script src="Poorvika_files/ace-extra.js"></script><style>@keyframes nodeInserted{from{outline-color:#fff}to{outline-color:#000}}@-moz-keyframes nodeInserted{from{outline-color:#fff}to{outline-color:#000}}@-webkit-keyframes nodeInserted{from{outline-color:#fff}to{outline-color:#000}}@-ms-keyframes nodeInserted{from{outline-color:#fff}to{outline-color:#000}}@-o-keyframes nodeInserted{from{outline-color:#fff}to{outline-color:#000}}.ace-save-state{animation-duration:10ms;-o-animation-duration:10ms;-ms-animation-duration:10ms;-moz-animation-duration:10ms;-webkit-animation-duration:10ms;animation-delay:0s;-o-animation-delay:0s;-ms-animation-delay:0s;-moz-animation-delay:0s;-webkit-animation-delay:0s;animation-name:nodeInserted;-o-animation-name:nodeInserted;-ms-animation-name:nodeInserted;-moz-animation-name:nodeInserted;-webkit-animation-name:nodeInserted}</style>
+	<!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+
+		<!--[if lte IE 8]>
+		<script src="http://192.168.15.21/e2e/poorvika/assets/js/html5shiv.min.js"></script>
+		<script src="http://192.168.15.21/e2e/poorvika/assets/js/respond.min.js"></script>
+		<![endif]-->
+        <style>
+		.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('images/poorvikalogo.png') 50% 50% no-repeat rgb(0,0,0);
+    opacity: .8;
+}
+ 
+		</style>
+        
+	<style type="text/css">.fancybox-margin{margin-right:17px;}</style></head>
+
+	<body class="no-skin"><div id="loader" class="loaderr"></div><div id="navbar" class="navbar navbar-default    navbar-collapse       h-navbar ace-save-state">
+			<div class="navbar-container ace-save-state" id="navbar-container">
+				<div class="navbar-header pull-left">
+					<button data-target="#sidebar2" type="button" class="pull-left menu-toggler navbar-toggle">
+										<span class="sr-only">Toggle sidebar</span>
+
+										<i class="ace-icon fa fa-dashboard white bigger-125"></i>
+									</button><a href="" class="navbar-brand">
+						<small>
+							<img src="Poorvika_files/Poorvika-new-logo.png" width="100" height="30">
+							
+						</small>
+					</a>
+
+					<button class="pull-right navbar-toggle navbar-toggle-img collapsed" type="button" data-toggle="collapse" data-target=".navbar-buttons,.navbar-menu">
+						<span class="sr-only">Toggle user menu</span>
+
+						<img src="Poorvika_files/MzM0NwProfileTulips.jpg" alt="Ranjith Kumar  J">
+					</button>
+
+					<button class="pull-right navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#sidebar">
+						<span class="sr-only">Toggle sidebar</span>
+
+						<span class="icon-bar"></span>
+
+						<span class="icon-bar"></span>
+
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="navbar-buttons navbar-header pull-right  collapse navbar-collapse" role="navigation">
+					<ul class="nav ace-nav">
+						<li style="display:none" class="transparent dropdown-modal">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="ace-icon fa fa-bell icon-animated-bell"></i>
+							</a>
+
+							<div class="dropdown-menu-right dropdown-navbar dropdown-menu dropdown-caret dropdown-close">
+								<div class="tabbable">
+									<ul class="nav nav-tabs">
+										<li class="active">
+											<a data-toggle="tab" href="#navbar-tasks">
+												Tasks
+												<span class="badge badge-danger">4</span>
+											</a>
+										</li>
+
+										<li>
+											<a data-toggle="tab" href="#navbar-messages">
+												Messages
+												<span class="badge badge-danger">5</span>
+											</a>
+										</li>
+									</ul><!-- .nav-tabs -->
+
+									<div class="tab-content">
+										<div id="navbar-tasks" class="tab-pane in active">
+											<ul class="dropdown-menu-right dropdown-navbar dropdown-menu">
+												<li class="dropdown-content ace-scroll" style="position: relative;"><div class="scroll-track" style="display: none;"><div class="scroll-bar"></div></div><div class="scroll-content" style="max-height: 200px;">
+													<ul class="dropdown-menu dropdown-navbar">
+														<li>
+															<a href="#">
+																<div class="clearfix">
+																	<span class="pull-left">Software Update</span>
+																	<span class="pull-right">65%</span>
+																</div>
+
+																<div class="progress progress-mini">
+																	<div style="width:65%" class="progress-bar"></div>
+																</div>
+															</a>
+														</li>
+
+														<li>
+															<a href="#">
+																<div class="clearfix">
+																	<span class="pull-left">Hardware Upgrade</span>
+																	<span class="pull-right">35%</span>
+																</div>
+
+																<div class="progress progress-mini">
+																	<div style="width:35%" class="progress-bar progress-bar-danger"></div>
+																</div>
+															</a>
+														</li>
+
+														<li>
+															<a href="#">
+																<div class="clearfix">
+																	<span class="pull-left">Unit Testing</span>
+																	<span class="pull-right">15%</span>
+																</div>
+
+																<div class="progress progress-mini">
+																	<div style="width:15%" class="progress-bar progress-bar-warning"></div>
+																</div>
+															</a>
+														</li>
+
+														<li>
+															<a href="#">
+																<div class="clearfix">
+																	<span class="pull-left">Bug Fixes</span>
+																	<span class="pull-right">90%</span>
+																</div>
+
+																<div class="progress progress-mini progress-striped active">
+																	<div style="width:90%" class="progress-bar progress-bar-success"></div>
+																</div>
+															</a>
+														</li>
+													</ul>
+												</div></li>
+
+												<li class="dropdown-footer">
+													<a href="#">
+														See tasks with details
+														<i class="ace-icon fa fa-arrow-right"></i>
+													</a>
+												</li>
+											</ul>
+										</div><!-- /.tab-pane -->
+
+										<div id="navbar-messages" class="tab-pane">
+											<ul class="dropdown-menu-right dropdown-navbar dropdown-menu">
+												<li class="dropdown-content ace-scroll" style="position: relative;"><div class="scroll-track" style="display: none;"><div class="scroll-bar"></div></div><div class="scroll-content" style="max-height: 200px;">
+													<ul class="dropdown-menu dropdown-navbar">
+														<li>
+															<a href="#">
+																<img src="Poorvika_files/MzM0NwProfileTulips.jpg" class="msg-photo" alt="Ranjith Kumar  J">
+																<span class="msg-body">
+																	<span class="msg-title">
+																		<span class="blue">Alex:</span>
+																		Ciao sociis natoque penatibus et auctor ...
+																	</span>
+
+																	<span class="msg-time">
+																		<i class="ace-icon fa fa-clock-o"></i>
+																		<span>a moment ago</span>
+																	</span>
+																</span>
+															</a>
+
+														</li>
+
+														<li>
+															<a href="#">
+																<img src="Poorvika_files/MzM0NwProfileTulips.jpg" class="msg-photo" alt="Ranjith Kumar  J">
+																<span class="msg-body">
+																	<span class="msg-title">
+																		<span class="blue">Susan:</span>
+																		Vestibulum id ligula porta felis euismod ...
+																	</span>
+
+																	<span class="msg-time">
+																		<i class="ace-icon fa fa-clock-o"></i>
+																		<span>20 minutes ago</span>
+																	</span>
+																</span>
+															</a>
+														</li>
+
+														<li>
+															<a href="#">
+																<img src="Poorvika_files/MzM0NwProfileTulips.jpg" class="msg-photo" alt="Ranjith Kumar  J">
+																<span class="msg-body">
+																	<span class="msg-title">
+																		<span class="blue">Bob:</span>
+																		Nullam quis risus eget urna mollis ornare ...
+																	</span>
+
+																	<span class="msg-time">
+																		<i class="ace-icon fa fa-clock-o"></i>
+																		<span>3:15 pm</span>
+																	</span>
+																</span>
+															</a>
+														</li>
+
+														<li>
+															<a href="#">
+																<img src="Poorvika_files/MzM0NwProfileTulips.jpg" class="msg-photo" alt="Ranjith Kumar  J">
+																<span class="msg-body">
+																	<span class="msg-title">
+																		<span class="blue">Kate:</span>
+																		Ciao sociis natoque eget urna mollis ornare ...
+																	</span>
+
+																	<span class="msg-time">
+																		<i class="ace-icon fa fa-clock-o"></i>
+																		<span>1:33 pm</span>
+																	</span>
+																</span>
+															</a>
+														</li>
+
+														<li>
+															<a href="#">
+																<img src="Poorvika_files/MzM0NwProfileTulips.jpg" class="msg-photo" alt="Fred's Avatar">
+																<span class="msg-body">
+																	<span class="msg-title">
+																		<span class="blue">Fred:</span>
+																		Vestibulum id penatibus et auctor  ...
+																	</span>
+
+																	<span class="msg-time">
+																		<i class="ace-icon fa fa-clock-o"></i>
+																		<span>10:09 am</span>
+																	</span>
+																</span>
+															</a>
+														</li>
+													</ul>
+												</div></li>
+
+												<li class="dropdown-footer">
+													<a href="http://192.168.15.21/e2e/poorvika/inbox.html">
+														See all messages
+														<i class="ace-icon fa fa-arrow-right"></i>
+													</a>
+												</li>
+											</ul>
+										</div><!-- /.tab-pane -->
+									</div><!-- /.tab-content -->
+								</div><!-- /.tabbable -->
+							</div><!-- /.dropdown-menu -->
+						</li>
+
+						<li class="light-blue dropdown-modal user-min">
+							<a style="background-color:#D76B00" data-toggle="dropdown" href="#" class="dropdown-toggle">
+                                                       
+								<img class="nav-user-photo" src="Poorvika_files/MzM0NwProfileTulips.jpg" alt="Ranjith Kumar  J">
+								<span class="user-info">
+									<small>Hi,
+									Ranjith Kumar  J</small>
+								</span>
+
+								<i class="ace-icon fa fa-caret-down"></i>
+							</a>
+
+							<ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+								<li>
+									<a href="http://192.168.15.21/e2e/poorvika/changepassword">
+										<i class="ace-icon fa fa-cog"></i>
+										Change Password
+									</a>
+								</li>
+
+								<li>
+									<a href="http://192.168.15.21/e2e/poorvika/staffprofile">
+										<i class="ace-icon fa fa-user"></i>
+										Profile
+									</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li>
+									<a href="http://192.168.15.21/e2e/poorvika/logout">
+										<i class="ace-icon fa fa-power-off"></i>
+										Logout
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<nav style="display:none" role="navigation" class="navbar-menu pull-left collapse navbar-collapse">
+					<ul style="display:none" class="nav navbar-nav">
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								Overview
+	  		&nbsp;
+								<i class="ace-icon fa fa-angle-down bigger-110"></i>
+							</a>
+
+							<ul class="dropdown-menu dropdown-light-blue dropdown-caret">
+								<li>
+									<a href="#">
+										<i class="ace-icon fa fa-eye bigger-110 blue"></i>
+										Monthly Visitors
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<i class="ace-icon fa fa-user bigger-110 blue"></i>
+										Active Users
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<i class="ace-icon fa fa-cog bigger-110 blue"></i>
+										Settings
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="#">
+								<i class="ace-icon fa fa-envelope"></i>
+								Messages
+								<span class="badge badge-warning">5</span>
+							</a>
+						</li>
+					</ul>
+
+					<form style="display:none" class="navbar-form navbar-left form-search" role="search">
+						<div class="form-group">
+							<input placeholder="search" type="text">
+						</div>
+
+						<button type="button" class="btn btn-mini btn-info2">
+							<i class="ace-icon fa fa-search icon-only bigger-110"></i>
+						</button>
+					</form>
+				</nav>
+			</div><!-- /.navbar-container -->
+		</div>
+        
+<div class="main-container ace-save-state" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.loadState('main-container')}catch(e){}
+			</script>
+
+<div id="sidebar" class="sidebar      h-sidebar                navbar-collapse collapse          ace-save-state" data-sidebar="true" data-sidebar-scroll="true" data-sidebar-hover="true">
+				<script type="text/javascript">
+					try{ace.settings.loadState('sidebar')}catch(e){}
+				</script>
+
+				<div class="sidebar-shortcuts" id="sidebar-shortcuts">
+                <img src="Poorvika_files/e2e_logo.gif" width="50" height="50">
+				  <div style="display:none" class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+						<button class="btn btn-success">
+							<i class="ace-icon fa fa-signal"></i>
+						</button>
+
+						<button class="btn btn-info">
+							<i class="ace-icon fa fa-pencil"></i>
+						</button>
+
+						<button class="btn btn-warning">
+							<i class="ace-icon fa fa-users"></i>
+						</button>
+
+						<button class="btn btn-danger">
+							<i class="ace-icon fa fa-cogs"></i>
+						</button>
+				  </div>
+
+					<div style="display:none" class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+						<span class="btn btn-success"></span>
+
+						<span class="btn btn-info"></span>
+
+						<span class="btn btn-warning"></span>
+
+						<span class="btn btn-danger"></span>
+					</div>
+				</div><!-- /.sidebar-shortcuts -->
+
+				<ul class="nav nav-list">
+					<li class=" hover">
+						<a href="http://192.168.15.21/e2e/poorvika/dashboard" onclick="loaderbtn()">
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> Dashboard </span>						</a>
+
+						<b class="arrow"></b>					</li>
+					<li class=" hover">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-bar-chart-o"></i>
+							<span class="menu-text">
+								Accounts							</span>
+
+							<b class="arrow fa fa-angle-down"></b>						</a>
+
+						<b class="arrow"></b>
+                        
+                        
+
+						<ul class="submenu">
+                        
+                        <li style="display:none" class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/accounts/company">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Company								</a>
+
+								<b class="arrow"></b>							</li>
+                            
+                          
+                        
+                        
+                        <li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+
+									Agreements
+									<b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                           <ul class="submenu">
+									<li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/showroomagreement">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Add										</a>
+
+										<b class="arrow"></b>									</li>
+                                
+                                <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/showroomagreementview">
+											<i class="menu-icon fa fa-caret-right"></i>
+											View										</a>
+
+										<b class="arrow"></b>									</li>    
+                                    </ul>     
+                                </li>
+                               
+                           
+                           <li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+
+									Accounts Support
+									<b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                                <ul class="submenu">
+									<li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/brsprtaccadd">
+											<i class="menu-icon fa fa-caret-right"></i>
+											APX Entry Modification										</a>
+
+										<b class="arrow"></b>
+                                   
+                                   <ul class="submenu">
+									<li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/brsprtaccadd">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Add										</a>
+
+										<b class="arrow"></b>									</li>
+                                    
+                              <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/brsprtaccview">
+											<i class="menu-icon fa fa-caret-right"></i>
+											View										</a>
+
+										<b class="arrow"></b>									</li>   
+                                  
+                                  
+                                  
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/accsprtbrch">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Branch Rights										</a>
+
+										<b class="arrow"></b>									</li> 
+                                    </ul>     
+									</li>
+                                    
+                                    
+                                    
+                           <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/brsprtaccadd">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Branch Expense Status										</a>
+
+										<b class="arrow"></b>
+                                   
+                                   <ul class="submenu">
+									
+                                    
+                              <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/expenseaccview">
+											<i class="menu-icon fa fa-caret-right"></i>
+											View										</a>
+
+										<b class="arrow"></b>									</li>   
+                                    </ul>     
+									</li>         
+                                    
+                 
+                 <li class="hover">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Image Validation
+										</a>
+
+										<b class="arrow"></b>
+                                   
+                                   <ul class="submenu">
+									
+                                    
+                              <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/chargeslipvalidation">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Charge Slip Validation
+										</a>
+
+										<b class="arrow"></b>
+									</li>   
+                                <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/financevalidation">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Finance Validation
+										</a>
+
+										<b class="arrow"></b>
+									</li>  
+                                  
+                                    
+                                    </ul>     
+                                       
+									</li>
+                                    
+                                    
+                                    
+     <li class="hover">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Branch O/B Status										</a>
+
+										<b class="arrow"></b>
+                                   
+                                   <ul class="submenu">
+									
+                                    
+                              <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/obbranchupl">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Upload										</a>
+
+										<b class="arrow"></b>									</li>  
+                                    
+                              <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/obbranchstatus">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Status Updation										</a>
+
+										<b class="arrow"></b>									</li>       
+                                    </ul>     
+									</li>                               
+                                    </ul>     
+                                </li>
+                                
+                                
+                                
+      <li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+
+									Expenses
+									<b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                           <ul class="submenu">
+                           <li class="hover">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Expense Details 
+              <b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>
+                     <ul class="submenu">
+									<li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/expensedetailsadd">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Add Expense Details										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/expenseinvoices">
+											<i class="menu-icon fa fa-caret-right"></i>
+											View Expense Details										</a>
+
+										<b class="arrow"></b>									</li>
+                                    
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/expenseapxdetails">
+											<i class="menu-icon fa fa-caret-right"></i>
+											 Expense APX Details										</a>
+
+										<b class="arrow"></b>									</li>
+                                    
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/expensebillchecking">
+											<i class="menu-icon fa fa-caret-right"></i>
+											 Expense Bill Checking										</a>
+
+										<b class="arrow"></b>									</li>
+                         
+                                    <li class="hover"> <a href="http://192.168.15.21/e2e/poorvika/expenseapproval"> <i class="menu-icon fa fa-caret-right"></i> Expense Approval </a></li>
+							
+                     </ul>                   
+							 </li>
+                           
+                           
+									<li class="hover">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Supplier 
+              <b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>
+                     <ul class="submenu">
+									<li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/suppliercreate">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Create										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/supplierdetails">
+											<i class="menu-icon fa fa-caret-right"></i>
+											View										</a>
+
+										<b class="arrow"></b>									</li>
+                                    </ul>                   
+									</li>
+                                    
+                                    <li class="hover">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Expense Group
+                                            <b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>
+                     <ul class="submenu">
+									<li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/expensegroupcreate">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Create										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/expensegroupdetails">
+											<i class="menu-icon fa fa-caret-right"></i>
+											View										</a>
+
+										<b class="arrow"></b>									</li>
+                                    </ul>                   
+									</li>
+                                    
+                                
+                                <li class="hover">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Expense Type
+                                            <b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>
+                     <ul class="submenu">
+									<li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/expensetypecreate">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Create										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/expensetypedetails">
+											<i class="menu-icon fa fa-caret-right"></i>
+											View										</a>
+
+										<b class="arrow"></b>									</li>
+                                    </ul>                   
+									</li>
+                                    
+       <li class="hover">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Expense Match
+                                            <b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>
+                     <ul class="submenu">
+									<li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/expensematchadd">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Create										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/expensematch">
+											<i class="menu-icon fa fa-caret-right"></i>
+											View										</a>
+
+										<b class="arrow"></b>									</li>
+                                    </ul>                   
+									</li>                             
+                                    </ul>     
+                                </li>                          
+                                
+                            
+							<li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+
+									Finance
+									<b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+
+								<ul class="submenu">
+									<li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/swipingmachinestatus">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Swiping Machine Status										</a>                                    </li>
+                                    
+                                    <li class="hover">
+										<a class="dropdown-toggle" href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Bajaj
+                                            <b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>
+                                        
+                             <ul class="submenu">
+                              <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/bajajfinancedtls.php?act=1">
+											<i class="menu-icon fa fa-caret-right"></i>
+											DO Approval										</a>
+
+										<b class="arrow"></b>									</li>   
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/bajajfinancesales">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Sales										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/bajajpaymentappr">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Payment Approval										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/bajajpaymentrealization">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Payment Realization										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/bajajpaymenttds">
+											<i class="menu-icon fa fa-caret-right"></i>
+											TDS										</a>
+
+										<b class="arrow"></b>									</li>
+									<li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/bajajreport">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Report										</a>
+
+										<b class="arrow"></b>									</li>
+                             </ul>           
+									</li>
+
+									<li style="display:none" class="hover">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Capital First										</a>
+
+										<b class="arrow"></b>									</li> 
+                                    
+                                    <li class="hover">
+										<a class="dropdown-toggle" href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Clix Capital
+                                            <b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>
+                                        <ul class="submenu">
+                                        <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/clixcapitaldtls.php?act=1">
+											<i class="menu-icon fa fa-caret-right"></i>
+											DO Approval										</a>
+
+										<b class="arrow"></b>									</li>
+                                        </ul>
+									</li>
+									
+									<li class="hover">
+										<a class="dropdown-toggle" href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											TVS Credit
+                                            <b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>
+                                        <ul class="submenu">
+                                        <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/tvscreditdtls.php?sts=UGVuZGluZw==">
+											<i class="menu-icon fa fa-caret-right"></i>
+											DO Approval										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/tvscreditscheme.php">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Scheme										</a>
+
+										<b class="arrow"></b>									</li>
+                                        </ul>
+									</li>
+                                    
+                                    
+                                    <li class="hover">
+										<a class="dropdown-toggle" href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											HDB Finance
+                                            <b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>
+                                        <ul class="submenu">
+                                        <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/hdbfinancedtls.php?sts=UGVuZGluZw==">
+											<i class="menu-icon fa fa-caret-right"></i>
+											DO Approval										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/hdbfinancescheme.php">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Scheme										</a>
+
+										<b class="arrow"></b>									</li>
+                                        </ul>
+									</li>
+                                    
+                                    
+
+									<li class="hover">
+										<a class="dropdown-toggle" href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Paytm
+                                            <b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>
+                                        
+                                  <ul class="submenu">
+                                        <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/paytmadminvsts">
+											<i class="menu-icon fa fa-caret-right"></i>
+											APX Invoice Status										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/paytmadminvupload">
+											<i class="menu-icon fa fa-caret-right"></i>
+										Upload APX Invoice										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/paytmadminvinvl">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Invalid APX Invoice										</a>
+
+										<b class="arrow"></b>									</li>
+                                        </ul>      
+									</li>
+                                                                        <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/gststatusadm.php?sts=UGVuZGluZw==">
+											<i class="menu-icon fa fa-caret-right"></i>
+											GST Status										</a>
+
+										<b class="arrow"></b>									</li>
+                                                                        <li class="hover">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Settings										</a>
+
+										<b class="arrow"></b>
+                                   <ul class="submenu">
+                                   <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/bajajmanageshr">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Showroom Management										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/bajajmanagescheme">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Bajaj Scheme Updation										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li style="display:none" class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/capitalfirstschemeview">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Capital First Scheme										</a>
+
+										<b class="arrow"></b>									</li>
+                                   </ul>     
+									</li>
+								</ul>
+							</li>
+
+							
+
+							<li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Payroll
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                                <ul class="submenu">
+								<li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/accuploads">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Uploads										</a>
+
+										<b class="arrow"></b>									</li>
+                               <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/accverifypending">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Pending										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/accpaymentsapproved">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Approved										</a>
+
+										<b class="arrow"></b>									</li>
+                                                                <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/salaryreportdwl">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Payroll Report								</a>
+
+								<b class="arrow"></b>							</li>
+                                                                <li style="display:none" class="hover">
+										<a href="#">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Paid										</a>
+
+										<b class="arrow"></b>									</li>
+                                                                         <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/tdsdeclarationaccountsview">
+									<i class="menu-icon fa fa-caret-right"></i>
+									TDS Declaration								</a>
+
+								<b class="arrow"></b>							</li>
+                            <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/rentaccountsview">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Rent								</a>
+
+								<b class="arrow"></b>							</li>
+                            
+                                                      <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/bonusaccountsview">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Bonus								</a>
+
+								<b class="arrow"></b>							</li>
+                                                            </ul>
+							</li>
+
+							<li style="display:none" class="hover">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Payments								</a>
+
+								<b class="arrow"></b>							</li>
+                            
+                         <li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+								Employee Work  Report
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                                <ul class="submenu">
+                               <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/workupdationdept">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Report										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/workupdationstatus">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Status										</a>
+
+										<b class="arrow"></b>									</li>
+                                    </ul>
+                                    </li>  
+                                     
+							<li style="display:none" class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+
+									Vouching
+									<b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+
+								<ul class="submenu">
+									
+                              <li class="hover">
+										<a href="#" class="dropdown-toggle">
+											<i class="menu-icon fa fa-pencil orange"></i>
+											Upload Vouchers List
+											<b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>                                        </li>
+									<li class="hover">
+										<a href="#" class="dropdown-toggle">
+											<i class="menu-icon fa fa-pencil orange"></i>
+
+											Voucher Status
+											<b class="arrow fa fa-angle-down"></b>										</a>
+
+										<b class="arrow"></b>
+
+										<ul class="submenu">
+											<li class="hover">
+												<a href="#">
+													<i class="menu-icon fa fa-plus purple"></i>
+													Pending												</a>
+
+												<b class="arrow"></b>											</li>
+
+											<li class="hover">
+												<a href="#">
+													<i class="menu-icon fa fa-eye pink"></i>
+													Closed												</a>
+
+												<b class="arrow"></b>											</li>
+										</ul>
+									</li>
+								</ul>
+							</li> 						</ul>
+					</li>
+
+
+					<li class="hover">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-adjust"></i>
+							<span class="menu-text"> Auditing </span>
+
+							<b class="arrow fa fa-angle-down"></b>						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li style="display:none" class="hover">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Showroom								</a>
+
+								<b class="arrow"></b>							</li>
+
+							<li style="display:none" class="hover">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Settings</a>
+
+								<b class="arrow"></b>							</li>
+						</ul>
+					</li>
+					<li class="hover">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-users"></i>
+							<span class="menu-text"> Human Resource</span>
+
+							<b class="arrow fa fa-angle-down"></b>						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu can-scroll">
+							<li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Employees
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                                
+                           <ul class="submenu">     
+                                
+                             
+                           <li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Profile
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                              <ul class="submenu"> 
+                               <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/staffadd?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									New								</a>
+
+								<b class="arrow"></b>							</li>   
+                              <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/staffedit?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Edit								</a>
+
+								<b class="arrow"></b>							</li>
+                            
+                             <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/staffsearch?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Search								</a>
+
+								<b class="arrow"></b>							</li>
+                            
+                            <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/employeereport?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Report								</a>
+
+								<b class="arrow"></b>							</li>
+                              </ul>   
+							</li>
+                            
+                            
+                            <li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Promoters
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                              <ul class="submenu"> 
+                              
+                              <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/promotersupload?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Upload								</a>
+
+								<b class="arrow"></b>							</li>
+                              
+                               <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/promotersadd?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									New								</a>
+
+								<b class="arrow"></b>							</li>   
+                              <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/promotersedit?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Edit								</a>
+
+								<b class="arrow"></b>							</li>
+                             <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/promoterssearch?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Search								</a>
+
+								<b class="arrow"></b>							</li>
+                            
+                            <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/promotersreport?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Report								</a>
+
+								<b class="arrow"></b>							</li>
+                              </ul>   
+							</li>
+							
+						
+		<li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Change Request
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                              <ul class="submenu"> 
+                               <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/staffchgreq?did=SFI=&amp;act=1">
+									<i class="menu-icon fa fa-caret-right"></i>
+									New Request								</a>
+
+								<b class="arrow"></b>							</li>   
+                              <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/staffchgreqstatus?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Change Request Status								</a>
+
+								<b class="arrow"></b>							</li>
+                            
+                             <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/staffchgreqpending?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Change Request Approval								</a>
+
+								<b class="arrow"></b>							</li>
+                            
+                            <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/staffchgresignedstf?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Resigned Staffs								</a>
+
+								<b class="arrow"></b>							</li>
+                              </ul>   
+							</li>					
+							
+      
+      
+      
+      
+      
+      <li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Salary Issue
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                              <ul class="submenu"> 
+                               <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/salaryissue?">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Add								</a>
+
+								<b class="arrow"></b>							</li>   
+                              <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/salaryissuestatus?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Status								</a>
+
+								<b class="arrow"></b>							</li>
+                            
+                             <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/salaryissueapproval?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									  Approval Pending								</a>
+
+								<b class="arrow"></b>							</li>
+                            
+                            <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/salaryissueapprovall?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Final Approval								</a>
+
+								<b class="arrow"></b>							</li>
+                              </ul>   
+							</li>
+      
+      <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/employeereportgiftstatus">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Diwali Gift Status
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>							</li>
+                            </ul>    
+							</li>
+                           <li class="hover">                           </li>
+							<li class="hover">
+								<a class="dropdown-toggle" href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Payroll
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                              <ul class="submenu">                            
+                            <li class="hover">
+                                </li><li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/hruploads?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Uploads								</a>
+
+								<b class="arrow"></b>							</li>   
+                            <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/hrpaymentpending?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Payroll Status								</a>
+
+								<b class="arrow"></b>							</li> 
+                                                         <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/salaryreportdwl?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Payroll Report								</a>
+
+								<b class="arrow"></b>							</li>
+                                                                                    <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/tdsdeclarationaccountsview?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									TDS Declaration								</a>
+
+								<b class="arrow"></b>							</li>
+                            <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/rentaccountsview?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Rent								</a>
+
+								<b class="arrow"></b>							</li>                            </ul>     
+                           </li>
+						   
+						   
+		<li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+								Employee Work  Report
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                                <ul class="submenu">
+                               <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/workupdationdept">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Report										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/workupdationstatus">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Status										</a>
+
+										<b class="arrow"></b>									</li>
+                                    </ul>
+                                    </li>				   
+						   						   
+                           
+                            
+                     <li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Download
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                                
+                           <ul class="submenu">     
+                                <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/hrpayslip?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Payslip								</a>
+
+								<b class="arrow"></b>							</li>
+                             <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/hrdownloadform16?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Form 16								</a>
+
+								<b class="arrow"></b>							</li>
+                            </ul>    
+							</li>      
+                           
+
+							<li class="hover">
+								<a class="dropdown-toggle" href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Settings
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+								 
+                                <b class="arrow"></b>                        
+                            <ul class="submenu">                            
+                            <li class="hover">
+                                </li><li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/showroomview?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Showroom								</a>
+
+								<b class="arrow"></b>							</li> 
+                            
+                            <li class="hover">
+							
+									<a href="http://192.168.15.21/e2e/poorvika/departmentview?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Department								</a>
+
+								<b class="arrow"></b>							</li> 
+                            
+                            <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/designationview?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Designation								</a>
+
+								<b class="arrow"></b>							</li>
+                            
+                            <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/designationmatchview?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Designation Matching								</a>
+
+								<b class="arrow"></b>							</li>
+                             
+                            
+                            <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/universityview?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									University								</a>
+
+								<b class="arrow"></b>							</li> 
+                            <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/qualificationview?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Qualification								</a>
+
+								<b class="arrow"></b>							</li> 
+                            <li class="hover">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Specialization								</a>
+
+								<b class="arrow"></b>							</li> 
+                            
+                  
+                             <li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Location
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+   <ul class="submenu">     
+                                <li class="hover">
+								
+								<a href="http://192.168.15.21/e2e/poorvika/stateview?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									State								</a>
+
+								
+								<b class="arrow"></b>
+								</li><li class="hover">
+							<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Region								</a>
+
+								<b class="arrow"></b>							</li>
+							
+							<li class="hover">
+							<a href="http://192.168.15.21/e2e/poorvika/districtview?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									District								</a>
+
+								<b class="arrow"></b>							</li>
+                            <li class="hover">
+							<a href="http://192.168.15.21/e2e/poorvika/areaview?did=SFI=">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Area								</a>
+
+								<b class="arrow"></b>							</li>
+                            </ul>
+							</li> 
+                            </ul>    
+							</li>
+						</ul>
+					</li>
+                    <li class="hover">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-fighter-jet"></i>
+							<span class="menu-text"> Logistics </span>
+
+							<b class="arrow fa fa-angle-down"></b>						</a>
+
+						<b class="arrow"></b>					</li>
+					<li class="hover">
+						<a class="dropdown-toggle" href="#">
+							<i class="menu-icon fa fa-film"></i>
+
+							<span class="menu-text">
+								Public Relation
+
+								<span class="badge badge-transparent tooltip-error" title="" data-original-title="2 Important Events">								</span>							</span>						</a>
+
+						<b class="arrow"></b>
+                        
+                       <ul class="submenu">
+                       <li class="hover">
+								<a class="dropdown-toggle" href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Kids Passport								</a>
+
+								<b class="arrow"></b>
+                                
+                     <ul class="submenu">
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/kidspstcfm">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Passport Confirmation List								</a>
+
+								<b class="arrow"></b>                     </li>
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/kidspstcfmcalls">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Download Report								</a>
+
+								<b class="arrow"></b>                     </li>
+                     </ul>           
+						</li>
+                       </ul> 
+					</li>
+					<li class="hover">
+						<a class="dropdown-toggle" href="#">
+							<i class="menu-icon glyphicon glyphicon-signal"></i>
+							<span class="menu-text"> Sales </span>						</a>
+
+						<b class="arrow"></b>
+                   <ul class="submenu">        
+            <li class="hover">
+								<a class="dropdown-toggle" href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Paytm								</a>
+
+								<b class="arrow"></b>
+                                
+                     <ul class="submenu">
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/paytmadmsts">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Order Id Status								</a>
+
+								<b class="arrow"></b>                     </li>
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/paytmadminvsts">
+									<i class="menu-icon fa fa-caret-right"></i>
+									APX Invoice Status								</a>
+
+								<b class="arrow"></b>                     </li>
+                     
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/paytmadminvupload">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Upload APX Invoice								</a>
+
+								<b class="arrow"></b>                     </li>
+                     
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/paytmadminvinvl">
+									<i class="menu-icon fa fa-caret-right"></i>
+								Invalid	APX Invoice								</a>
+
+								<b class="arrow"></b>                     </li>
+                     </ul>           
+						</li> 
+                        
+          <li class="hover">
+								<a class="dropdown-toggle" href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Kids Passport								</a>
+
+								<b class="arrow"></b>
+                                
+                     <ul class="submenu">
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/kidspassportupload">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Upload								</a>
+
+								<b class="arrow"></b>                     </li>
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/kidspassportdownload">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Download								</a>
+
+								<b class="arrow"></b>                     </li>
+                     </ul>           
+						</li>              
+                     
+					 <li class="hover">
+								<a class="dropdown-toggle" href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Offers								</a>
+
+								<b class="arrow"></b>
+                                
+                     <ul class="submenu">
+					                      <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/saleoffernotification">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Send Notification								</a>
+
+								<b class="arrow"></b>                     </li>
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/saleoffertypeview">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Manage Offers Type								</a>
+
+								<b class="arrow"></b>                     </li>
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/saleofferbrandview">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Manage Brands								</a>
+
+								<b class="arrow"></b>                     </li>
+					 <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/appuserview">
+									<i class="menu-icon fa fa-caret-right"></i>
+									App Users								</a>
+
+								<b class="arrow"></b>                     </li>
+					 
+					 <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/appoffershistory">
+									<i class="menu-icon fa fa-caret-right"></i>
+									App Status								</a>
+
+								<b class="arrow"></b>                     </li>
+                                          </ul>           
+						</li> 
+						
+						
+						<li class="hover">
+								<a class="dropdown-toggle" href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									E-Shop Voucher								</a>
+
+								<b class="arrow"></b>
+                                
+                     <ul class="submenu">
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/saleoffercouponadm?sts=UGVuZGluZw==">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Status								</a>
+
+								<b class="arrow"></b>                     </li>
+                     </ul>           
+						</li>
+                        
+                        
+                        <li class="hover">
+								<a class="dropdown-toggle" href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Paytm Voucher Redemption								</a>
+
+								<b class="arrow"></b>
+                                
+                     <ul class="submenu">
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/paytmvoucherscoupon">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Upload Coupon Code								</a>
+
+								<b class="arrow"></b>                     </li>
+                     <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/paytmvouchersadm">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Status								</a>
+
+								<b class="arrow"></b>                     </li>
+                                          <li class="hover">
+								<a href="http://192.168.15.21/e2e/poorvika/paytmvouchersadmacc?">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Payment Status								</a>
+
+								<b class="arrow"></b>                     </li>
+                     
+                                         </ul>           
+						</li>  
+                    </ul>    
+					</li>
+					<li class="hover">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-tag"></i>
+							<span class="menu-text"> Service</span>
+
+							<b class="arrow fa fa-angle-down"></b>						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li style="display:none" class="hover">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Employee Work								</a>
+
+								<b class="arrow"></b>							</li>
+
+							<li style="display:none" class="hover">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Settings								</a>
+
+								<b class="arrow"></b>							</li>
+   
+                         <li class="hover">
+								<a href="#" class="dropdown-toggle">
+									<i class="menu-icon fa fa-caret-right"></i>
+								Employee Work  Report
+                                    <b class="arrow fa fa-angle-down"></b>								</a>
+
+								<b class="arrow"></b>
+                                <ul class="submenu">
+                               <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/workupdationdept">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Report										</a>
+
+										<b class="arrow"></b>									</li>
+                                    <li class="hover">
+										<a href="http://192.168.15.21/e2e/poorvika/workupdationstatus">
+											<i class="menu-icon fa fa-caret-right"></i>
+											Status										</a>
+
+										<b class="arrow"></b>									</li>
+                                    </ul>
+                                    </li>  
+                                    						</ul>
+					</li>
+
+					<li style="display:none" class="hover">
+						<a href="#" class="dropdown-toggle">
+							<i class="menu-icon fa fa-file-o"></i>
+
+							<span class="menu-text">
+								Other Pages
+
+								<span class="badge badge-primary">5</span>							</span>
+
+							<b class="arrow fa fa-angle-down"></b>						</a>
+
+						<b class="arrow"></b>
+
+						<ul class="submenu">
+							<li class="hover">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									FAQ								</a>
+
+								<b class="arrow"></b>							</li>
+
+							<li class="hover">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Error 404								</a>
+
+								<b class="arrow"></b>							</li>
+
+							<li class="hover">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Error 500								</a>
+
+								<b class="arrow"></b>							</li>
+
+							<li class="hover">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Grid								</a>
+
+								<b class="arrow"></b>							</li>
+
+							<li class="hover">
+								<a href="#">
+									<i class="menu-icon fa fa-caret-right"></i>
+									Blank Page								</a>
+
+								<b class="arrow"></b>							</li>
+						</ul>
+					</li>
+				</ul>
+				<!-- /.nav-list -->
+         <div style="display:none" class="breadcrumbs ace-save-state" id="breadcrumbs">
+						<ul class="breadcrumb">
+							<li>
+								<i class="ace-icon fa fa-home home-icon"></i>
+								<a href="#">Home</a>
+							</li>
+							<li class="active">Dashboard</li>
+						</ul><!-- /.breadcrumb -->
+
+						<div style="display:none" class="nav-search" id="nav-search">
+							<form class="form-search">
+								<span class="input-icon">
+									<input placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" type="text">
+									<i class="ace-icon fa fa-search nav-search-icon"></i>
+								</span>
+							</form>
+						</div><!-- /.nav-search -->
+  </div> 
+	</div>
+            
+    			<div class="main-content">
+				<div class="main-content-inner">
+                
+					<div id="sidebar2" class="sidebar responsive menu-min ace-save-state" data-sidebar="true" data-sidebar-scroll="true" data-sidebar-hover="true">
+										<ul class="nav nav-list" id="leftmenuid" style="top: 0px;">
+											<li>
+												<a href="http://192.168.15.21/e2e/poorvika/dashboard">
+													<i class="menu-icon fa fa-tachometer"></i>
+													<span class="menu-text">Dashboard</span>
+												</a>
+
+												<b class="arrow"></b>
+											</li>
+
+											<li>
+												<a href="http://192.168.15.21/e2e/poorvika/aboutus">
+													<i class="menu-icon fa fa-list-alt"></i>
+													<span class="menu-text">About Us</span>
+												</a>
+
+												<b class="arrow"></b>
+											</li>
+
+											<li class="hover">
+												<a class="dropdown-toggle" href="#">
+													<i class="menu-icon fa fa-tag"></i>
+													<span class="menu-text"> Contact Us </span>
+
+													<b class="arrow fa fa-angle-down"></b>
+												</a>
+
+												<b class="arrow"></b>
+                                                
+                  <ul class="submenu">
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/showroomcontacts">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Branch
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                    
+                                                    <li class="hover">
+														<a class="fancybox fancybox.iframe" target="_blank" href="http://192.168.15.21/e2e/poorvika/downloadfiles.php?fldid=ZG93bmxvYWRz&amp;fls=YWNjb3VudHNfY29udGFjdF9saXN0LnBkZg==">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Accounts
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                    
+                                                    
+                                                    <li class="hover">
+														<a target="_blank" href="http://192.168.15.21/e2e/poorvika/downloadfiles?fldid=ZG93bmxvYWRz&amp;fls=Q29udGFjdHNfSFIucGRm">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Human Resource
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                    
+                                                    
+                          </ul>
+                                                
+                                                
+                                                
+											</li>
+									<li class="hover">
+												<a class="dropdown-toggle" href="#">
+													<i class="menu-icon fa fa-home"></i>
+													<span class="menu-text"> Branch Login</span> <b class="arrow fa fa-angle-down"></b>
+												</a>
+
+												<b class="arrow"></b>
+                                                
+                                                <ul class="submenu">
+											 <li class="hover">
+														<a class="dropdown-toggle" href="#">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Human Resource
+                                                             <b class="arrow fa fa-angle-down"></b>
+														</a>
+
+														<b class="arrow"></b>
+                                                  
+                                              <ul class="submenu">
+                                              													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/employeelistshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Branch Employee List
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                                                                   </ul>         
+                                                        
+                                                        
+													</li>
+											 
+											 
+											  <li style="display:none" class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/saleoffercouponshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															E-Shop Voucher
+														</a>
+
+														<b class="arrow"></b>
+                                                     
+													</li>
+																										<li style="display:" class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/paytmvouchershr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Paytm Voucher Redemption
+														</a>
+
+														<b class="arrow"></b>
+                                                     
+													</li>											 <li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/saleoffer">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Offers
+														</a>
+
+														<b class="arrow"></b>
+                                                     
+													</li> 
+											 
+													<li class="hover">
+														<a class="dropdown-toggle" href="#">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Downloads
+                                                             <b class="arrow fa fa-angle-down"></b>
+														</a>
+
+														<b class="arrow"></b>
+                                                  
+                                              <ul class="submenu">
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/bajaschemechart">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Bajaj Scheme Chart
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                               </ul>         
+                                                        
+                                                        
+													</li>
+                                                    
+                                          
+										  <li class="hover">
+														<a class="dropdown-toggle" href="#">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Accounts Support
+                                                             <b class="arrow fa fa-angle-down"></b>
+														</a>
+
+														<b class="arrow"></b>
+                                          <ul class="submenu">
+                                          
+                                          <li class="hover">
+														<a class="dropdown-toggle" href="#">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Finance
+                                                             <b class="arrow fa fa-angle-down"></b>
+														</a>
+
+														<b class="arrow"></b>
+                                          <ul class="submenu">
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/bajajshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Bajaj 
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                    <li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/paytmshrsts">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Paytm Mall
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+													
+                                                    <li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/clixcapitalshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Clix Capital
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+													
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/tvscreditshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															TVS Credit
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                    
+                                                    <li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/hdbfinanceshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															HDB Finance
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                    
+                                                    <li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/gststatus">
+															<i class="menu-icon fa fa-caret-right"></i>
+															GST Status
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                    <li class="hover">
+														<a onclick="openwindow()" href="#">
+															<i class="menu-icon fa fa-caret-right"></i>
+															GST Verification
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                               </ul>               
+                                              </li>
+                                          
+                                          
+                                                                                     <li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/gststatus">
+															<i class="menu-icon fa fa-caret-right"></i>
+															GST Updation
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                    <li class="hover">
+														<a onclick="openwindow()" href="#">
+															<i class="menu-icon fa fa-caret-right"></i>
+															GST Number Verification
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                       
+													<li class="hover">
+														<a href="#">
+															<i class="menu-icon fa fa-caret-right"></i>
+															APX Entry Modification 
+                                                             <b class="arrow fa fa-angle-down"></b>
+														</a>
+
+														<b class="arrow"></b>
+                                                         <ul class="submenu">
+                                                         
+                                                         <li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/brsprtaccaddshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Add
+														</a>
+
+														<b class="arrow"></b>
+                                                         
+                                                         </li><li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/brsprtaccviewshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															View
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                         </ul>
+													</li>
+                                                    
+													
+                                                    
+                                                    <li class="hover">
+														<a href="#">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Expense Updation
+                                                            <b class="arrow fa fa-angle-down"></b>
+														</a>
+
+														<b class="arrow"></b>
+                                                         <ul class="submenu">
+                                                         
+                                                         <li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/expenseaddshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Add
+														</a>
+
+														<b class="arrow"></b>
+                                                         
+                                                         </li><li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/expenseaccviewshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															View
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                         </ul>
+													</li>
+													<li class="hover">
+														<a href="#">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Ticket
+                                                         <b class="arrow fa fa-angle-down"></b>
+														</a>
+
+														<b class="arrow"></b>
+                                                         <ul class="submenu">
+                                                         
+                                                         <li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/ticketcreateshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Create
+														</a>
+
+														<b class="arrow"></b>
+                                                         
+                                                         </li><li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/ticketstatusshr">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Ticket Status
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                         </ul>
+													</li>
+                                               
+                                                    
+                                                    
+                                               </ul>               
+                                              </li>
+										  
+										  
+										  
+										                      
+                                                    
+                                                    
+                                             </ul>          
+                                                
+											</li> 
+											<li class="hover">
+												<a class="dropdown-toggle" href="#">
+													<i class="menu-icon fa fa-download"></i>
+													<span class="menu-text"> Downloads </span>
+
+													<b class="arrow fa fa-angle-down"></b>
+												</a>
+
+												<b class="arrow"></b>
+
+												<ul class="submenu">
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/downloadform16">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Form 16
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/downloadshr?file=Leave%20Form.pdf">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Leave Form
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/downloadshr?file=Supplier%20Registration%20form.pdf">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Supplier Registration Form
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/downloadshr?file=Supervisor%20Expenses%20Form5.pdf">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Supervisor Expense Form
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/downloadshr?file=Swiping%20Issue-%20Refund%20Form.pdf">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Swiping Issue - Refund Form
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/downloadshr?file=SWIPING%20MACHINE%20TID.docx">
+															<i class="menu-icon fa fa-caret-right"></i>
+															SWIPING MACHINE TID
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/downloadpayslip">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Payslip
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+
+													
+												</ul>
+											</li>
+                                                                         <li class="hover">
+												<a class="dropdown-toggle" href="#">
+													<i class="menu-icon fa fa-cogs"></i>
+													<span class="menu-text"> Settings </span>
+
+													<b class="arrow fa fa-angle-down"></b>
+												</a>
+
+												<b class="arrow"></b>
+                                                
+                                                
+                      <ul class="submenu">
+													<li class="hover">
+														<a href="http://192.168.15.21/e2e/poorvika/staffrightsnew">
+															<i class="menu-icon fa fa-caret-right"></i>
+															Rights 
+														</a>
+
+														<b class="arrow"></b>
+													</li>
+                                                    </ul>                          
+                                                
+                                                
+                                                </li>
+                                                												
+												
+												            
+											
+										</ul><!-- /.nav-list -->
+
+										<div class="sidebar-toggle sidebar-collapse">
+											<i id="sidebar3-toggle-icon" class="ace-icon fa fa-angle-double-right ace-save-state" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+										</div>
+									</div><div class="page-content main-content"> 
+           <div style="padding-top:10px;" class="ace-settings-container" id="ace-settings-container">
+							<div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
+								<i class="ace-icon fa fa-cog bigger-130"></i>
+							</div>
+
+							<div class="ace-settings-box clearfix" id="ace-settings-box">
+								<div class="pull-left width-50">
+									<div class="ace-settings-item" style="display:none">
+										<div class="pull-left">
+											<select id="skin-colorpicker" class="hide">
+												<option data-skin="no-skin" value="#438EB9" selected="selected">#438EB9</option>
+												<option data-skin="skin-1" value="#222A2D">#222A2D</option>
+												<option data-skin="skin-2" value="#C6487E">#C6487E</option>
+												<option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
+											</select><div class="dropdown dropdown-colorpicker">		<a data-toggle="dropdown" class="dropdown-toggle"><span class="btn-colorpicker" style="background-color:#438EB9"></span></a><ul class="dropdown-menu dropdown-caret"><li><a class="colorpick-btn selected" style="background-color:#438EB9;" data-color="#438EB9"></a></li><li><a class="colorpick-btn" style="background-color:#222A2D;" data-color="#222A2D"></a></li><li><a class="colorpick-btn" style="background-color:#C6487E;" data-color="#C6487E"></a></li><li><a class="colorpick-btn" style="background-color:#D0D0D0;" data-color="#D0D0D0"></a></li></ul></div>
+										</div>
+										<span>&nbsp; Choose Skin</span>
+									</div>
+
+									<div class="ace-settings-item">
+										<input class="ace ace-checkbox-2 ace-save-state" id="ace-settings-navbar" autocomplete="off" type="checkbox">
+										<label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
+									</div>
+
+									<div class="ace-settings-item">
+										<input class="ace ace-checkbox-2 ace-save-state" id="ace-settings-sidebar" autocomplete="off" type="checkbox">
+										<label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
+									</div>
+
+									<div style="display:none" class="ace-settings-item">
+										<input class="ace ace-checkbox-2 ace-save-state" id="ace-settings-breadcrumbs" autocomplete="off" type="checkbox">
+										<label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
+									</div>
+
+									<div style="display:none" class="ace-settings-item">
+										<input class="ace ace-checkbox-2" id="ace-settings-rtl" autocomplete="off" type="checkbox">
+										<label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
+									</div>
+
+									<div class="ace-settings-item">
+										<input class="ace ace-checkbox-2 ace-save-state" id="ace-settings-add-container" autocomplete="off" type="checkbox">
+										<label class="lbl" for="ace-settings-add-container">
+											Inside
+											<b>.container</b>
+										</label>
+									</div>
+								</div><!-- /.pull-left -->
+
+								<div class="pull-left width-50">
+									<div style="display:none" class="ace-settings-item">
+										<input class="ace ace-checkbox-2" id="ace-settings-hover" autocomplete="off" type="checkbox">
+										<label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
+									</div>
+
+									<div style="display:none" class="ace-settings-item">
+										<input class="ace ace-checkbox-2" id="ace-settings-compact" autocomplete="off" type="checkbox">
+										<label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
+									</div>
+
+									
+								</div><!-- /.pull-left -->
+							</div><!-- /.ace-settings-box -->
+						</div>    
+						    
+              <script>
+
+checked=false;
+function checkedAll () {
+	var aa= document.getElementById('form1');
+	
+	 if (checked == false)
+          {
+           checked = true
+          }
+        else
+          {
+          checked = false
+          }
+	for (var i =0; i < aa.elements.length; i++) 
+	{
+	 aa.elements[i].checked = checked;
+	}
+      }
+</script>  
+<style>
+
+input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], textarea {
+border-radius: 6px !important;
+color: #858585;
+background-color: #FFF;
+border: 1px solid #858585;
+padding: 5px 4px 6px;
+font-size: 13px;
+font-family: inherit;
+-webkit-box-shadow: none !important;
+box-shadow: none !important;
+-webkit-transition-duration: .1s;
+transition-duration: .1s;
+width: 141px;
+}
+
+.form-control, select {
+    border-radius: 8px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    color: #858585;
+    background-color: #FFF;
+    border: 1px solid #858585;
+}
+.btn {
+    color: #FFF !important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+    background-image: none !important;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    box-shadow: none !important;
+    -webkit-transition: background-color .15s,border-color .15s,opacity .15s;
+    -o-transition: background-color .15s,border-color .15s,opacity .15s;
+    transition: background-color .15s,border-color .15s,opacity .15s;
+    vertical-align: middle;
+    margin: 0;
+    position: relative;
+	padding:8px 20px 8px 20px;
+}
+</style>
+<link href="Poorvika_files/paginationstyle.css" rel="stylesheet" type="text/css">
+     <!-- page content -->
+     <div class="right_col" role="main">
+          <div class="">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Expense Invoice 
+                    </h2>
+                    <div class="clearfix">
+                      
+                    </div>
+                  </div>
+                  <form id="form2" name="form2" method="post" action="">
+                    <div class="serachoption" style="padding-bottom:20px;padding-top:20px;">
+				                   <input name="supplierdid" id="supplierdid" placeholder="search supplierdid" type="text">
+				&nbsp;&nbsp;&nbsp; <input name="invoicedate" id="invoicedate" placeholder="search invoicedate" type="text">
+				&nbsp;&nbsp;&nbsp; <input name="invoiceno" id="invoiceno" placeholder="search Invaoice No" type="text">
+				&nbsp;&nbsp;&nbsp; <input name="netvalue" id="netvalue" placeholder="search Invaoice Value" type="text">
+				&nbsp;&nbsp;&nbsp; <select name="status" size="1" id="status" style="border-radius: 3px;">
+                                   <option value="" selected="selected">Select Status</option>
+                                   <option value="Pending">Pending</option>
+                                   <option value="Approved">Approved</option>
+                                   </select>
+			&nbsp;&nbsp;&nbsp; <button name="searchbtn" type="submit" class="btn btn-info">Search</button>	&nbsp;&nbsp;&nbsp;<a href="http://192.168.15.21/e2e/poorvika/expenseinvoicereport.php?stid=&amp;dtid=&amp;sts=">
+                        <button name="activebtn" type="button" class="btn btn-success">Download</button></a>
+			   </div>
+               
+					  
+                 
+                  </form>
+                 
+                  <form id="form1" name="form1" method="post" action="">
+                      <table id="datatable-buttonss" class="table-striped table-bordered dt-responsive nowrap table-hover" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                        <thead>
+                          <tr>
+                            <td height="35" align="center"><strong>
+                            <input name="checkall" onclick="checkedAll();" type="checkbox">
+                            </strong></td>
+                            <td align="center"><strong>Supplier</strong>                            </td>
+                            <td align="center"><strong>Invoice Date</strong></td>
+                            <td align="center"><strong>Invoice No</strong></td>
+                            <td align="center"><strong>Basic</strong></td>
+                            <td align="center"><strong>CGST</strong></td>
+                            <td align="center"><strong>SGST</strong></td>
+                            <td align="center"><strong>IGST</strong></td>
+                            <td align="center"><strong>Others</strong></td>
+                            <td align="center"><strong>Invoice Value</strong></td>
+                            <td align="center"><strong>Bill Copy </strong></td>
+                            <td align="center"><strong>Status</strong></td>
+                            <td align="center"><strong>Updated Date</strong></td>
+                            <td align="center"><strong>Updated By</strong></td>
+                          </tr>
+                        </thead>
+                                                <tbody><tr>
+                          <td colspan="14" height="35" align="center">No Records Found</td>
+                        </tr>
+                                                <tr>
+                          <td colspan="14" height="49" align="center"><a class="fancybox fancybox.iframe" href="http://192.168.15.21/e2e/poorvika/expensedetailsadd.php"><button name="addbtn" type="button" class="btn btn-primary">Add</button></a>&nbsp;&nbsp;&nbsp;<button name="editbtn" type="submit" class="btn btn-warning">Edit</button> </td>
+                        </tr>
+                      </tbody></table>
+                  </form>
+                </div>
+                  <div class="x_content">
+                    <p>&nbsp;</p>
+                    <br>
+                    <br>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+ 
+        <!-- /page content -->
+<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+								<div class="invisible">
+									
+
+									<!-- .sidebar -->
+								</div>
+
+								<div class="hidden-sm hidden-xs">                               
+                                
+                                <button style="display:none" type="button" class="sidebar-collapse btn btn-white btn-primary" data-target="#sidebar">
+									<i id="sidebar4-toggle-icon" class="ace-icon fa fa-angle-double-up ace-save-state" data-icon1="ace-icon fa fa-angle-double-up" data-icon2="ace-icon fa fa-angle-double-down"></i>
+									Collapse/Expand Menu
+								</button>
+							  </div>
+
+								<!-- PAGE CONTENT ENDS -->
+							</div><!-- /.col -->
+						</div>
+
+</div><div class="footer">
+				<div class="footer-inner">
+					<div class="footer-content" style="text-align:left">
+						<span class="bigger-120">
+							<span class="blue bolder">Poorvika Mobiles Private Limited</span> © 2018</span>
+
+						<span id="date_time">Thursday December 6 2018 18:59:39</span>
+						
+					</div>
+				</div>
+			</div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+			<style>
+#footerr {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   font-size:12px;
+}
+#date_time {
+position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 12px;
+	font-weight:bold;   
+}
+</style>
+			
+            
+            <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+			</a>
+			
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+		        <script src="Poorvika_files/jquery_004.js"></script>
+        	<!--<script src="lib/jquery.js"></script>-->
+	<script src="Poorvika_files/jquery.htm"></script>
+<script src="Poorvika_files/jquery_006.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://192.168.15.21/e2e/poorvika/assets/js/jquery-1.11.3.min.js"></script>
+<![endif]-->
+		<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='http://192.168.15.21/e2e/poorvika/assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+		</script>
+		<script src="Poorvika_files/bootstrap.js"></script>
+        <script src="Poorvika_files/bootbox.js"></script>
+		<!-- page specific plugin scripts -->
+<script src="Poorvika_files/jquery.js"></script>
+		<!-- ace scripts -->
+        <script src="Poorvika_files/select2.js"></script>
+		<script src="Poorvika_files/ace-elements.js"></script>
+		<script src="Poorvika_files/ace.js"></script>
+		<script src="Poorvika_files/chosen.js"></script>
+		<!-- inline scripts related to this page -->
+<script type="text/javascript">
+
+					
+function loaderbtn() {
+ document.getElementById('loader').style.display='';
+}
+			jQuery(function($) {
+				var demo1 = $('select[name="duallistbox_demo1[]"]').bootstrapDualListbox({infoTextFiltered: '<span class="label label-purple label-lg">Filtered</span>'});
+				var container1 = demo1.bootstrapDualListbox('getContainer');
+				container1.find('.btn').addClass('btn-white btn-info btn-bold');
+				
+			   $('#sidebar2').insertBefore('.page-content');
+			   $('#navbar').addClass('h-navbar');
+			   $('.footer').insertAfter('.page-content');
+			   
+			   $('.page-content').addClass('main-content');
+			   
+			   $('.menu-toggler[data-target="#sidebar2"]').insertBefore('.navbar-brand');
+			   
+			   
+			   $(document).on('settings.ace.two_menu', function(e, event_name, event_val) {
+				   /*
+				   alert(event_name)
+				    alert(event_val)
+				 if(event_name == 'sidebar_fixed' && event_val == false) {
+					  document.getElementById("leftmenuid").style.paddingTop = "0px"; 
+				 document.getElementById("topmenuid").style.paddingTop = "0px"; 
+					 if( $('#sidebar').hasClass('sidebar-fixed') ) $('#sidebar2').addClass('sidebar-fixed')
+					 else $('#sidebar2').removeClass('sidebar-fixed')
+				 } else if(event_name == 'sidebar_fixed' && event_val == true) {
+					 document.getElementById("leftmenuid").style.paddingTop = "40px"; 
+				 document.getElementById("topmenuid").style.paddingTop = "40px"; 
+					 if( $('#sidebar').hasClass('sidebar-fixed') ) $('#sidebar2').addClass('sidebar-fixed')
+					 else $('#sidebar2').removeClass('sidebar-fixed') 
+					 } else {
+						 }
+			   */
+			   
+				 if(event_name == 'sidebar_fixed') {
+					 if( $('#sidebar').hasClass('sidebar-fixed') ) $('#sidebar2').addClass('sidebar-fixed')
+					 else $('#sidebar2').removeClass('sidebar-fixed')
+				 }
+			   
+			   }).triggerHandler('settings.ace.two_menu', ['sidebar_fixed' ,$('#sidebar').hasClass('sidebar-fixed')]);
+			   
+			   $('#sidebar2[data-sidebar-hover=true]').ace_sidebar_hover('reset');
+			   $('#sidebar2[data-sidebar-scroll=true]').ace_sidebar_scroll('reset', true);
+			
+			$.mask.definitions['~']='[+-]';
+				$('.input-mask-date').mask('99-99-9999');
+				$('.input-mask-phone').mask('(999) 999-9999');
+				$('.input-mask-eyescript').mask('~9.99 ~9.99 999');
+				$(".input-mask-product").mask("a*-999-a999",{placeholder:" ",completed:function(){alert("You typed the following: "+this.val());}});
+			
+			
+				if(!ace.vars['touch']) {
+					$('.chosen-select').chosen({allow_single_deselect:true}); 
+					//resize the chosen on window resize
+			
+					$(window)
+					.off('resize.chosen')
+					.on('resize.chosen', function() {
+						$('.chosen-select').each(function() {
+							 var $this = $(this);
+							 $this.next().css({'width': '200px'});
+						})
+					}).trigger('resize.chosen');
+					//resize chosen on sidebar collapse/expand
+					$(document).on('settings.ace.chosen', function(e, event_name, event_val) {
+						if(event_name != 'sidebar_collapsed') return;
+						$('.chosen-select').each(function() {
+							 var $this = $(this);
+							 $this.next().css({'width': '100px'});
+						})
+					});
+			
+			
+					$('#chosen-multiple-style .btn').on('click', function(e){
+						var target = $(this).find('input[type=radio]');
+						var which = parseInt(target.val());
+						if(which == 2) $('#form-field-select-4').addClass('tag-input-style');
+						 else $('#form-field-select-4').removeClass('tag-input-style');
+					});
+				}
+				
+				$("#gritter-notice-wrapper").delay(4000).fadeOut(0);
+			
+			$(".bootbox-confirm").on(ace.click_event, function() {
+				var value = $( this ).attr( 'href' );
+                var res = value.split("-");
+				var ownid = res[1];
+				var ownidd = res[0];
+				var agrid = res[2];
+				//alert(ownid)
+			//	alert(document.getElementById('ownernameid'+ownid).innerHTML);
+				bootbox.confirm("Are you sure?", function(result) {
+						if(result) {
+							if(ownidd == '#1') {
+							window.location.href='agreement.php?fcn=1&dval='+ownid+'&act=3&tab=3'+'&agrid='+agrid;
+							}
+						}
+					});
+				});
+				
+				$('.select2').css('width','200px').select2({allowClear:false})
+				$('#select2-multiple-style .btn').on('click', function(e){
+					var target = $(this).find('input[type=radio]');
+					var which = parseInt(target.val());
+					if(which == 2) $('.select2').addClass('tag-input-style');
+					 else $('.select2').removeClass('tag-input-style');
+				});
+				
+				$(document).one('ajaxloadstart.page', function(e) {
+					$('[class*=select2]').remove();
+					$('select[name="duallistbox_demo1[]"]').bootstrapDualListbox('destroy');
+				});
+
+
+
+$(".statecm").change(function()
+{
+var id=$(this).val();
+var dataString = 'id='+ id;
+
+$.ajax
+({
+type: "POST",
+url: "getdistrict.php",
+data: dataString,
+cache: false,
+success: function(html)
+{
+$(".districtcm").html(html);
+document.getElementById('areacm').value='';
+document.getElementById('districtcm').value='';
+document.getElementById('pincodecm').value='';
+} 
+});
+
+});
+
+
+$(".districtcm").change(function()
+{
+var id=$(this).val();
+var sid = document.getElementById('statecm').value;
+var dataString = 'did='+ id + '&sid='+sid;
+
+$.ajax
+({
+type: "POST",
+url: "getarea.php",
+data: dataString,
+cache: false,
+success: function(html)
+{
+$(".areacm").html(html);
+document.getElementById('areacm').value='';
+document.getElementById('pincodecm').value='';
+} 
+});
+
+});
+ 
+ $(".univ_state").change(function()
+{
+var id=$(this).val();
+var dataString = 'id='+ id;
+
+$.ajax
+({
+type: "POST",
+url: "getunivstate.php",
+data: dataString,
+cache: false,
+success: function(html)
+{
+$(".university").html(html);
+} 
+});
+
+});	
+	
+
+				
+
+$(".statepm").change(function()
+{
+
+var id=$(this).val();
+//alert(id)
+var dataString = 'id='+ id;
+
+$.ajax
+({
+type: "POST",
+url: "getdistrict.php",
+data: dataString,
+cache: false,
+success: function(html)
+{
+$(".districtpm").html(html);
+document.getElementById('areapm').value='';
+document.getElementById('districtpm').value='';
+document.getElementById('pincodepm').value='';
+} 
+});
+
+});
+
+
+
+$(".districtpm").change(function()
+{
+var id=$(this).val();
+var sid = document.getElementById('statepm').value;
+var dataString = 'did='+ id + '&sid='+sid;
+
+$.ajax
+({
+type: "POST",
+url: "getarea.php",
+data: dataString,
+cache: false,
+success: function(html)
+{
+$(".areapm").html(html);
+document.getElementById('areapm').value='';
+document.getElementById('pincodepm').value='';
+} 
+});
+
+});
+
+
+$("#state").change(function()
+{
+	//$(".region").html('<img src="images/loading_icon.gif" width="45" height="45" />');
+var id=$(this).val();
+ // alert(id)
+var dataString = 'sid='+ id;
+
+$.ajax
+({
+type: "POST",
+url: "../getdistrict.php",
+data: dataString,
+cache: false,
+success: function(html)
+{
+	//alert(html)
+$(".district").html(html);
+} 
+});
+
+});
+
+
+
+
+ $("#region").change(function()
+{
+	// $(".district").html('<img src="images/loading_icon.gif" width="45" height="45" />');
+var id=$(this).val();
+ if(id != '') {
+  var sid = document.getElementById('state').value;
+var dataString = 'rid='+ id + '&sid=' +sid;
+
+$.ajax
+({
+type: "POST",
+url: "../getdistrict.php",
+data: dataString,
+cache: false,
+success: function(html)
+{
+$(".district").html(html);
+} 
+});
+
+}
+
+});
+
+
+
+
+$("#district").change(function()
+{
+	//$(".area").html('<img src="images/loading_icon.gif" width="45" height="45" />');
+var id=$(this).val();
+//alert(id)
+if(id != '') {
+var sid = document.getElementById('state').value;
+var did = document.getElementById('district').value;
+var dataString = 'sid='+ sid + '&did='+did;
+
+$.ajax
+({
+type: "POST",
+url: "../getarea.php",
+data: dataString,
+cache: false,
+success: function(html)
+{
+	
+$(".area").html(html);
+} 
+});
+}
+
+});
+
+
+			
+$(".issuetype").change(function()
+{
+
+var id=$(this).val();
+//alert(id)
+var dataString = 'srid='+ id;
+//alert(dataString)
+$.ajax
+({
+type: "POST",
+url: "getsalaryissue.php",
+data: dataString,
+cache: false,
+success: function(html)
+{
+$(".reason").html(html);
+} 
+});
+
+});
+
+
+
+
+			})
+
+$(window).load(function() {
+	$(".loader").fadeOut("slow");
+	date_time('date_time');
+});
+
+		</script>
+         <script>
+   function openwindow()
+{
+	window.open("https://services.gst.gov.in/services/searchtp","mywindow","menubar=1,resizable=1,width=650,height=700,top=120,left=300");
+}
+   </script> 
+      <script>
+function date_time(id)
+{
+        date = new Date;
+        year = date.getFullYear();
+        month = date.getMonth();
+        months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'Jully', 'August', 'September', 'October', 'November', 'December');
+        d = date.getDate();
+        day = date.getDay();
+        days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+        h = date.getHours();
+        if(h<10)
+        {
+                h = "0"+h;
+        }
+        m = date.getMinutes();
+        if(m<10)
+        {
+                m = "0"+m;
+        }
+        s = date.getSeconds();
+        if(s<10)
+        {
+                s = "0"+s;
+        }
+        result = ''+days[day]+' '+months[month]+' '+d+' '+year+' '+h+':'+m+':'+s;
+        document.getElementById(id).innerHTML = result;
+        setTimeout('date_time("'+id+'");','1000');
+        return true;
+}
+</script>
+ 
+	
+ 
+	
+
+	
+	<script type="text/javascript" src="Poorvika_files/jquery_005.js"></script>
+	<link rel="stylesheet" type="text/css" href="Poorvika_files/jquery_002.css" media="screen">
+
+	<!-- Add Button helper (this is optional) -->
+
+	<!-- Add Thumbnail helper (this is optional) -->
+
+	<!-- Add Media helper (this is optional) -->
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			 *  Simple image gallery. Uses default settings
+			 */
+
+			$('.fancybox').fancybox();
+
+			/*
+			 *  Different effects
+			 */
+
+			
+
+
+		});
+	</script>
+	        </body></html>
+<!-- Add mousewheel plugin (this is optional) -->
+<!-- Add fancyBox main JS and CSS files -->

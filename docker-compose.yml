@@ -1,0 +1,11 @@
+version: "3.2"
+services:
+  php:
+    build: 
+      context: .
+    image: e2e/e2e-ui-mysql:latest
+    volumes:
+      - ./:/var/www/html/e2e-ui
+    ports:
+      - "8001:80"
+    container_name: e2e-ui
